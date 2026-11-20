@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "checks": [],
+  "candidates": [],
+  "subscriptions": [],
+  "deliveries": [],
+  "lastCheck": {
+    "at": "2026-11-20T11:54:40.262Z",
+    "phase": "scheduled",
+    "sources": [],
+    "added": 0,
+    "note": "설명회 예정일 전: 결과보고서 조회 미실시"
+  }
+}

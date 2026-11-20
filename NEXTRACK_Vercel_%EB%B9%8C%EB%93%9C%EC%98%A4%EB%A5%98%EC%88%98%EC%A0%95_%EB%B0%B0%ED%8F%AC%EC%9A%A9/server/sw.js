@@ -1,0 +1,2 @@
+self.addEventListener('push',event=>{let data={title:'NEXTRACK',body:'새 행정자료 후보가 발견됐습니다.',url:'/'};try{data={...data,...event.data.json()}}catch{};event.waitUntil(self.registration.showNotification(data.title,{body:data.body,data:{url:data.url}}))});
+self.addEventListener('notificationclick',event=>{event.notification.close();const url=event.notification.data?.url||'/';event.waitUntil(clients.openWindow(url))});
